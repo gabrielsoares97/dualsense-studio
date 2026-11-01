@@ -57,14 +57,6 @@ O DualSense é o controle mais completo que já existiu, mas no PC quase tudo fi
   </tr>
 </table>
 
-## Bônus: Treino de Trastes
-
-<img src="docs/screenshots/treino.png" alt="Treino de Trastes com notas descendo pelo braço da guitarra" width="900">
-
-Um treinador de ritmo para jogos de guitarra no esquema clássico de controle (**L2, L1, R1, R2 e ✕**), criado para quem se perde na nota laranja. Cada nota mostra o botão que deve ser apertado, e há oito exercícios (do "só o laranja" até acordes e aleatório), teste de reflexo e um resumo que diz se você está adiantado ou atrasado em cada cor.
-
-Abra o arquivo `Treino de Guitarra.html` no Chrome ou no Edge e aperte um botão do controle. Ele não precisa do servidor e usa a API de controles do navegador, então funciona ao mesmo tempo que um jogo no navegador.
-
 ## Como usar
 
 **Requisitos:** Windows 10 ou 11, [Node.js](https://nodejs.org) 18 ou mais novo, Google Chrome ou Microsoft Edge e um DualSense ou DualSense Edge.
@@ -107,7 +99,6 @@ app/                 interface (HTML, CSS e JavaScript puros, sem build)
   js/bt-audio.js     hápticos (0x32), alto-falante em Opus (0x35) e microfone pelo Bluetooth
 server.js            servidor local em 127.0.0.1, perfis e ponte para o Windows
 tools/               scripts do Windows: mouse e teclado, volume e link Bluetooth
-Treino de Guitarra.html
 ```
 
 - **USB:** o controle aparece como uma placa de som de 4 canais. Os canais 1 e 2 vão para o alto-falante ou o fone, e os canais 3 e 4 movem os atuadores hápticos.
