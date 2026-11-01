@@ -1,0 +1,4 @@
+perfis/
+.claude/
+node_modules/
+*.log
